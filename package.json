@@ -1,0 +1,20 @@
+{
+  "name": "aes_implementantion",
+  "version": "1.0.0",
+  "description": "Implementation of AES encryption for Introduktion till datasäkerhet at Högskolan Kristianstad",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "AES",
+    "school",
+    "encryption"
+  ],
+  "author": "Petter Ekedahl",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-minify": "^1.0.0"
+  }
+}

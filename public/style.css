@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.container {
+  height: 50vh;
+  width: 85vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-container {
+  display: flex;
+  margin-bottom: 2vh;
+  width: 65vw;
+  justify-content: space-around;
+}
+
+.text {
+  height: 4vh;
+  width: 35vw;
+}
+
+.output {
+  border: 1px solid black;
+  padding: 2px;
+  width: 50vw;
+}
